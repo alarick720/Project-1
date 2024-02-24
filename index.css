@@ -13,7 +13,7 @@ body
 
 }
 .menu-bar{
-    background: rgb(44, 82, 6);
+    background: rgb(0,100,0);
     text-align: center;
 }
 .menu-bar ul{
@@ -26,6 +26,17 @@ body
     width: 130px;
     margin: 15px;
     padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+
 }
 
 
